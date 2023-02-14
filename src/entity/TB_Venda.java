@@ -2,7 +2,7 @@ package entity;
 
 import java.util.Date;
 
-public class RegistroCompra {
+public class TB_Venda {
 
 	private long id;
 	private Date data;
@@ -13,7 +13,7 @@ public class RegistroCompra {
 	private String vendedor;
 	private Date dataDeNascimento;
 
-	public RegistroCompra(long id, Date data, int NF, float valorTotal, Date dataDeNascimento) {
+	public TB_Venda(long id, Date data, int NF, float valorTotal, Date dataDeNascimento) {
 		this.id = id;
 		this.data = data;
 		this.NF = NF;
